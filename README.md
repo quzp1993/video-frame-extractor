@@ -104,6 +104,27 @@ for video in videos:
     print(f"已提取 {video} 的帧到 {output_dir}")
 ```
 
+## Claude Code 技能使用
+
+本项目包含 `SKILL.md`，可以作为 Claude Code 的技能使用。
+
+### 安装技能
+
+```bash
+# 复制技能文件到 Claude Code 技能目录
+cp SKILL.md ~/.claude/skills/video-frame-extractor.md
+```
+
+### 使用技能
+
+在 Claude Code 中直接使用命令：
+
+```
+/video-frame-extractor
+```
+
+这将激活视频帧提取功能，快速帮助你处理视频文件。
+
 ## 许可证
 
 MIT License
