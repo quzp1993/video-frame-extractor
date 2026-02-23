@@ -84,32 +84,13 @@ paths = extract_frames(
 
 ## 示例
 
-### 运行示例脚本
-
-项目包含一个完整的示例脚本，展示了各种使用场景：
-
-```bash
-# 运行示例（需要先修改示例中的视频路径）
-python examples/basic_example.py
-```
-
-示例脚本包含以下演示：
-
-| 示例 | 描述 |
-|------|------|
-| `example_1_basic_usage` | 基本用法：提取默认的 10 帧 |
-| `example_2_custom_num_frames` | 自定义提取帧数 |
-| `example_3_custom_quality` | 对比不同输出质量的效果 |
-| `example_4_specific_frames` | 提取特定位置的帧 |
-| `example_5_batch_processing` | 批量处理多个视频 |
-
-### 示例 1：提取视频缩略图
+### 提取视频缩略图
 
 ```bash
 python video_frame_extractor.py my_video.mp4 thumbnails/ -n 5 -q 85
 ```
 
-### 示例 2：Python 批量处理
+### 批量处理
 
 ```python
 import os
